@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA520F321FEF6B3A00DEB814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F311FEF6B3A00DEB814 /* AppDelegate.swift */; };
+		FA520F371FEF6B3B00DEB814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA520F351FEF6B3B00DEB814 /* Main.storyboard */; };
+		FA520F391FEF6B3B00DEB814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA520F381FEF6B3B00DEB814 /* Assets.xcassets */; };
+		FA520F3C1FEF6B3B00DEB814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA520F3A1FEF6B3B00DEB814 /* LaunchScreen.storyboard */; };
+		FA520F471FEF6B3B00DEB814 /* CityViewJsonMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F461FEF6B3B00DEB814 /* CityViewJsonMVVMTests.swift */; };
+		FA520F521FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F511FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift */; };
+		FA520F601FEF6C1900DEB814 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F5F1FEF6C1900DEB814 /* Model.swift */; };
+		FA520F621FEF6D2700DEB814 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F611FEF6D2700DEB814 /* CityViewModel.swift */; };
+		FA520F641FEF905700DEB814 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F631FEF905700DEB814 /* CityTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA520F431FEF6B3B00DEB814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA520F261FEF6B3A00DEB814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA520F2D1FEF6B3A00DEB814;
+			remoteInfo = CityViewJsonMVVM;
+		};
+		FA520F4E1FEF6B3C00DEB814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA520F261FEF6B3A00DEB814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA520F2D1FEF6B3A00DEB814;
+			remoteInfo = CityViewJsonMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA520F2E1FEF6B3A00DEB814 /* CityViewJsonMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityViewJsonMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA520F311FEF6B3A00DEB814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA520F361FEF6B3B00DEB814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA520F381FEF6B3B00DEB814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA520F3B1FEF6B3B00DEB814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA520F3D1FEF6B3B00DEB814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA520F421FEF6B3B00DEB814 /* CityViewJsonMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityViewJsonMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA520F461FEF6B3B00DEB814 /* CityViewJsonMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewJsonMVVMTests.swift; sourceTree = "<group>"; };
+		FA520F481FEF6B3B00DEB814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA520F4D1FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityViewJsonMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA520F511FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewJsonMVVMUITests.swift; sourceTree = "<group>"; };
+		FA520F531FEF6B3C00DEB814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA520F5F1FEF6C1900DEB814 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA520F611FEF6D2700DEB814 /* CityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		FA520F631FEF905700DEB814 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA520F2B1FEF6B3A00DEB814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA520F3F1FEF6B3B00DEB814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA520F4A1FEF6B3C00DEB814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA520F251FEF6B3A00DEB814 = {
+			isa = PBXGroup;
+			children = (
+				FA520F301FEF6B3A00DEB814 /* CityViewJsonMVVM */,
+				FA520F451FEF6B3B00DEB814 /* CityViewJsonMVVMTests */,
+				FA520F501FEF6B3C00DEB814 /* CityViewJsonMVVMUITests */,
+				FA520F2F1FEF6B3A00DEB814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA520F2F1FEF6B3A00DEB814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA520F2E1FEF6B3A00DEB814 /* CityViewJsonMVVM.app */,
+				FA520F421FEF6B3B00DEB814 /* CityViewJsonMVVMTests.xctest */,
+				FA520F4D1FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA520F301FEF6B3A00DEB814 /* CityViewJsonMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				FA520F311FEF6B3A00DEB814 /* AppDelegate.swift */,
+				FA520F351FEF6B3B00DEB814 /* Main.storyboard */,
+				FA520F381FEF6B3B00DEB814 /* Assets.xcassets */,
+				FA520F3A1FEF6B3B00DEB814 /* LaunchScreen.storyboard */,
+				FA520F3D1FEF6B3B00DEB814 /* Info.plist */,
+				FA520F5F1FEF6C1900DEB814 /* Model.swift */,
+				FA520F611FEF6D2700DEB814 /* CityViewModel.swift */,
+				FA520F631FEF905700DEB814 /* CityTableViewController.swift */,
+			);
+			path = CityViewJsonMVVM;
+			sourceTree = "<group>";
+		};
+		FA520F451FEF6B3B00DEB814 /* CityViewJsonMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA520F461FEF6B3B00DEB814 /* CityViewJsonMVVMTests.swift */,
+				FA520F481FEF6B3B00DEB814 /* Info.plist */,
+			);
+			path = CityViewJsonMVVMTests;
+			sourceTree = "<group>";
+		};
+		FA520F501FEF6B3C00DEB814 /* CityViewJsonMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA520F511FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift */,
+				FA520F531FEF6B3C00DEB814 /* Info.plist */,
+			);
+			path = CityViewJsonMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA520F2D1FEF6B3A00DEB814 /* CityViewJsonMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA520F561FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVM" */;
+			buildPhases = (
+				FA520F2A1FEF6B3A00DEB814 /* Sources */,
+				FA520F2B1FEF6B3A00DEB814 /* Frameworks */,
+				FA520F2C1FEF6B3A00DEB814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityViewJsonMVVM;
+			productName = CityViewJsonMVVM;
+			productReference = FA520F2E1FEF6B3A00DEB814 /* CityViewJsonMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA520F411FEF6B3B00DEB814 /* CityViewJsonMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA520F591FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVMTests" */;
+			buildPhases = (
+				FA520F3E1FEF6B3B00DEB814 /* Sources */,
+				FA520F3F1FEF6B3B00DEB814 /* Frameworks */,
+				FA520F401FEF6B3B00DEB814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA520F441FEF6B3B00DEB814 /* PBXTargetDependency */,
+			);
+			name = CityViewJsonMVVMTests;
+			productName = CityViewJsonMVVMTests;
+			productReference = FA520F421FEF6B3B00DEB814 /* CityViewJsonMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA520F4C1FEF6B3C00DEB814 /* CityViewJsonMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA520F5C1FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVMUITests" */;
+			buildPhases = (
+				FA520F491FEF6B3C00DEB814 /* Sources */,
+				FA520F4A1FEF6B3C00DEB814 /* Frameworks */,
+				FA520F4B1FEF6B3C00DEB814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA520F4F1FEF6B3C00DEB814 /* PBXTargetDependency */,
+			);
+			name = CityViewJsonMVVMUITests;
+			productName = CityViewJsonMVVMUITests;
+			productReference = FA520F4D1FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA520F261FEF6B3A00DEB814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jaminya;
+				TargetAttributes = {
+					FA520F2D1FEF6B3A00DEB814 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GHNVAZGF88;
+						ProvisioningStyle = Automatic;
+					};
+					FA520F411FEF6B3B00DEB814 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GHNVAZGF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA520F2D1FEF6B3A00DEB814;
+					};
+					FA520F4C1FEF6B3C00DEB814 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GHNVAZGF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA520F2D1FEF6B3A00DEB814;
+					};
+				};
+			};
+			buildConfigurationList = FA520F291FEF6B3A00DEB814 /* Build configuration list for PBXProject "CityViewJsonMVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA520F251FEF6B3A00DEB814;
+			productRefGroup = FA520F2F1FEF6B3A00DEB814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA520F2D1FEF6B3A00DEB814 /* CityViewJsonMVVM */,
+				FA520F411FEF6B3B00DEB814 /* CityViewJsonMVVMTests */,
+				FA520F4C1FEF6B3C00DEB814 /* CityViewJsonMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA520F2C1FEF6B3A00DEB814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA520F3C1FEF6B3B00DEB814 /* LaunchScreen.storyboard in Resources */,
+				FA520F391FEF6B3B00DEB814 /* Assets.xcassets in Resources */,
+				FA520F371FEF6B3B00DEB814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA520F401FEF6B3B00DEB814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA520F4B1FEF6B3C00DEB814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA520F2A1FEF6B3A00DEB814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA520F641FEF905700DEB814 /* CityTableViewController.swift in Sources */,
+				FA520F601FEF6C1900DEB814 /* Model.swift in Sources */,
+				FA520F321FEF6B3A00DEB814 /* AppDelegate.swift in Sources */,
+				FA520F621FEF6D2700DEB814 /* CityViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA520F3E1FEF6B3B00DEB814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA520F471FEF6B3B00DEB814 /* CityViewJsonMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA520F491FEF6B3C00DEB814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA520F521FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA520F441FEF6B3B00DEB814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA520F2D1FEF6B3A00DEB814 /* CityViewJsonMVVM */;
+			targetProxy = FA520F431FEF6B3B00DEB814 /* PBXContainerItemProxy */;
+		};
+		FA520F4F1FEF6B3C00DEB814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA520F2D1FEF6B3A00DEB814 /* CityViewJsonMVVM */;
+			targetProxy = FA520F4E1FEF6B3C00DEB814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA520F351FEF6B3B00DEB814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA520F361FEF6B3B00DEB814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA520F3A1FEF6B3B00DEB814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA520F3B1FEF6B3B00DEB814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA520F541FEF6B3C00DEB814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA520F551FEF6B3C00DEB814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA520F571FEF6B3C00DEB814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHNVAZGF88;
+				INFOPLIST_FILE = CityViewJsonMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaminya.CityViewJsonMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA520F581FEF6B3C00DEB814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHNVAZGF88;
+				INFOPLIST_FILE = CityViewJsonMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaminya.CityViewJsonMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA520F5A1FEF6B3C00DEB814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GHNVAZGF88;
+				INFOPLIST_FILE = CityViewJsonMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaminya.CityViewJsonMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityViewJsonMVVM.app/CityViewJsonMVVM";
+			};
+			name = Debug;
+		};
+		FA520F5B1FEF6B3C00DEB814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GHNVAZGF88;
+				INFOPLIST_FILE = CityViewJsonMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaminya.CityViewJsonMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityViewJsonMVVM.app/CityViewJsonMVVM";
+			};
+			name = Release;
+		};
+		FA520F5D1FEF6B3C00DEB814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GHNVAZGF88;
+				INFOPLIST_FILE = CityViewJsonMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaminya.CityViewJsonMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CityViewJsonMVVM;
+			};
+			name = Debug;
+		};
+		FA520F5E1FEF6B3C00DEB814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GHNVAZGF88;
+				INFOPLIST_FILE = CityViewJsonMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaminya.CityViewJsonMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CityViewJsonMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA520F291FEF6B3A00DEB814 /* Build configuration list for PBXProject "CityViewJsonMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA520F541FEF6B3C00DEB814 /* Debug */,
+				FA520F551FEF6B3C00DEB814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA520F561FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA520F571FEF6B3C00DEB814 /* Debug */,
+				FA520F581FEF6B3C00DEB814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA520F591FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA520F5A1FEF6B3C00DEB814 /* Debug */,
+				FA520F5B1FEF6B3C00DEB814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA520F5C1FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA520F5D1FEF6B3C00DEB814 /* Debug */,
+				FA520F5E1FEF6B3C00DEB814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA520F261FEF6B3A00DEB814 /* Project object */;
+}
