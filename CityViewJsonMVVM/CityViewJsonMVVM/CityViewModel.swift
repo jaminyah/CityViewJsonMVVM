@@ -12,6 +12,10 @@ class CityViewModel: NSObject {
 
     private var city: City
     
+    init(city: City) {
+        self.city = city
+    }
+
     var cityName: String? {
         return city.name
     }
@@ -23,8 +27,5 @@ class CityViewModel: NSObject {
         return NSURL(string: url)
     }
     
-    init(city: City) {
-        self.city = city
-    }
 }
 

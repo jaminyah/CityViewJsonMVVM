@@ -15,7 +15,8 @@
 		FA520F521FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F511FEF6B3C00DEB814 /* CityViewJsonMVVMUITests.swift */; };
 		FA520F601FEF6C1900DEB814 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F5F1FEF6C1900DEB814 /* Model.swift */; };
 		FA520F621FEF6D2700DEB814 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F611FEF6D2700DEB814 /* CityViewModel.swift */; };
-		FA520F641FEF905700DEB814 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F631FEF905700DEB814 /* CityTableViewController.swift */; };
+		FA520F661FF0421400DEB814 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F651FF0421400DEB814 /* DownloadManager.swift */; };
+		FA520F681FF0729C00DEB814 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA520F671FF0729C00DEB814 /* CityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		FA520F531FEF6B3C00DEB814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA520F5F1FEF6C1900DEB814 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FA520F611FEF6D2700DEB814 /* CityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
-		FA520F631FEF905700DEB814 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		FA520F651FF0421400DEB814 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		FA520F671FF0729C00DEB814 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,8 @@
 				FA520F3D1FEF6B3B00DEB814 /* Info.plist */,
 				FA520F5F1FEF6C1900DEB814 /* Model.swift */,
 				FA520F611FEF6D2700DEB814 /* CityViewModel.swift */,
-				FA520F631FEF905700DEB814 /* CityTableViewController.swift */,
+				FA520F651FF0421400DEB814 /* DownloadManager.swift */,
+				FA520F671FF0729C00DEB814 /* CityViewController.swift */,
 			);
 			path = CityViewJsonMVVM;
 			sourceTree = "<group>";
@@ -268,10 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA520F641FEF905700DEB814 /* CityTableViewController.swift in Sources */,
+				FA520F661FF0421400DEB814 /* DownloadManager.swift in Sources */,
 				FA520F601FEF6C1900DEB814 /* Model.swift in Sources */,
 				FA520F321FEF6B3A00DEB814 /* AppDelegate.swift in Sources */,
 				FA520F621FEF6D2700DEB814 /* CityViewModel.swift in Sources */,
+				FA520F681FF0729C00DEB814 /* CityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				FA520F581FEF6B3C00DEB814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA520F591FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				FA520F5B1FEF6B3C00DEB814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA520F5C1FEF6B3C00DEB814 /* Build configuration list for PBXNativeTarget "CityViewJsonMVVMUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				FA520F5E1FEF6B3C00DEB814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

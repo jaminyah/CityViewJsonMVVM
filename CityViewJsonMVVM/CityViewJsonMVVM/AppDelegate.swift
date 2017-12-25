@@ -16,15 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let cities: [CityViewModel] = {
         let Abiline = City(flagUrl: "http://abiline.link", slug: "Abiline", team:(Teams(sports_team:"Raptors")),
                            name: "Abiline", region:(Region(state:"TX", region: "South Central")),
-                           coordinate:(Coordinates(latitude: 92.120, longitude:32.140)))
+                           coordinates:(Coordinates(latitude: 92.120, longitude:32.140)))
         
         let Dallas = City(flagUrl: "http://dallas.link", slug: "Dallas", team:(Teams(sports_team:"Mavericks")),
                            name: "Dallas", region:(Region(state:"TX", region: "South Central")),
-                           coordinate:(Coordinates(latitude: 92.130, longitude:32.740)))
+                           coordinates:(Coordinates(latitude: 92.130, longitude:32.740)))
        
         let Miami = City(flagUrl: "http://miami.link", slug: "Miami", team:(Teams(sports_team:"Heat")),
                           name: "Miami", region:(Region(state:"FL", region: "South Eastern")),
-                          coordinate:(Coordinates(latitude: 74.130, longitude:28.740)))
+                          coordinates:(Coordinates(latitude: 74.130, longitude:28.740)))
 
         return [CityViewModel(city: Abiline), CityViewModel(city: Dallas), CityViewModel(city: Miami)]
     }()

@@ -14,19 +14,19 @@ struct City {
     let team: Teams?
     let name: String?
     let region: Region
-    let coordinate: Coordinates?
+    let coordinates: Coordinates?
 }
 
 struct Coordinates {
-    let latitude: Double?
-    let longitude: Double?
+    var latitude: Double?
+    var longitude: Double?
 }
 
 struct Region {
-    let state: String?
-    let region: String?
+    var state: String?
+    var region: String?
 }
 
 struct Teams {
-    let sports_team: String?
+    var sports_team: String?
 }
